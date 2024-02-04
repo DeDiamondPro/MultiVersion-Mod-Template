@@ -1,0 +1,22 @@
+modLoader = "javafml"
+loaderVersion = "[1,)"
+license = "${license}"
+showAsResourcePack=false
+
+[[mods]]
+modId = "${id}"
+displayName = "${name}"
+version = "${version}"
+authors = "Example Author"
+description = "${description}"
+
+[[dependencies.${id}]]
+modId = "minecraft"
+mandatory = true
+type = "required"
+versionRange = "${mcVersionForge}"
+ordering = "NONE"
+side = "BOTH"
+
+[[mixins]]
+config = "${id}.mixins.json"

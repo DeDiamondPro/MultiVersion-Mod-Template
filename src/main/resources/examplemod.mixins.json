@@ -1,0 +1,9 @@
+{
+  "package": "com.example.examplemod.mixins",
+  "refmap": "examplemod.mixins.refmap.json",
+  "minVersion": "0.7",
+  "compatibilityLevel": "JAVA_8",
+  "mixins": [],
+  "client": [],
+  "server": []
+}
